@@ -23,3 +23,21 @@ main {
 h1 {
   font-family: 'Kanit';
 }
+
+.banner-hero {
+  height: calc(100vh - 96px);
+}
+
+.mouse div {
+  animation: mouse-animation 1.5s ease-in-out alternate infinite;
+}
+
+@keyframes mouse-animation {
+  from {
+    transform: translateY(10px);
+  }
+
+  to {
+    transform: translateY(20px);
+  }
+}

@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site developed by [Proph - Théo Lemoine](https://pr0ph.com/).
 
 ## Available Scripts
 

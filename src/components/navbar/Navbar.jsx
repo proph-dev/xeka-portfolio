@@ -5,9 +5,9 @@ import navbar from './navbar.css';
 
 export const Navbar = () => {
     return (
-        <nav className='flex flex-col justify-center sm:flex-row sm:justify-between items-center py-4 px-10'>
+        <nav className='flex flex-col justify-center tablet:flex-row tablet:justify-between items-center py-4 px-10'>
             <img src={logo} alt="" className='w-[64px]' />
-            <div className='grid gap-4 grid-cols-3 text-center uppercase text-sm font-bold mt-4 sm:mt-4'>
+            <div className='grid gap-4 grid-cols-3 text-center uppercase text-sm font-bold mt-4 tablet:mt-4'>
                 <NavLink to="/" >Qui suis-je ?</NavLink>
                 <NavLink to="/" >Portfolio</NavLink>
                 <NavLink to="/" >Me contacter</NavLink>

@@ -3,14 +3,7 @@ nav a {
 }
 
 nav a::after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 2px;
-    width: 0%;
+    @apply content-[''] block absolute bottom-[-3px] left-1/2 -translate-x-1/2 h-0.5 w-0;
     background-color: var(--main-color);
     transition: width .3s ease-in-out;
 }

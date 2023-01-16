@@ -15,15 +15,13 @@
   --main-color: #f02f45
 }
 
-main {
+.content {
   max-width: 80vw;
   margin: 0 auto;
+  @apply flex items-center justify-between flex-col laptop:flex-row h-full;
 }
 
-h1 {
+h2 {
   font-family: 'Kanit';
-}
-
-.banner-hero {
-  height: calc(100vh - 96px);
+  @apply text-4xl tracking-wide;
 }

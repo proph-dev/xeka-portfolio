@@ -1,5 +1,5 @@
 import React from 'react';
-import utilscss from './utils.css'
+import './utils.css'
 
 export const BackgroundAnimation = () => {
     return (

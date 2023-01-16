@@ -10,7 +10,7 @@ import { Navbar } from '../components/navbar/Navbar';
 export const RoutesPage = () => {
     return (
         <BrowserRouter>
-        <header>
+        <header className='fixed w-full z-10 bg-white'>
             <Navbar />
         </header>
         <main>

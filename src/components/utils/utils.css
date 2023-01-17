@@ -136,3 +136,23 @@
       transform: translateY(20px);
     }
   }
+
+
+
+/*** Collapse ***/
+.collapse-content-enter {
+  height: 0;
+  overflow: hidden;
+}
+.collapse-content-enter-active {
+  height: 75px;
+  transition: height .3s ease-in;
+}
+.collapse-content-exit {
+  height: 75px;
+  overflow: hidden;
+}
+.collapse-content-exit-active {
+  height: 0;
+  transition: height 300ms ease-out;
+}

@@ -1,8 +1,9 @@
 import React from 'react';
-import sysadmin from '../../assets/img/sysadmin.png';
-import { BackgroundAnimation } from '../../components/utils/BackgroundAnimation';
-import { MouseScrollAnimation } from '../../components/utils/MouseScrollAnimation';
-import { Paragraph } from '../../components/utils/Paragraph';
+import { BackgroundAnimation } from '../utils/BackgroundAnimation';
+import { MouseScrollAnimation } from '../utils/MouseScrollAnimation';
+import { Paragraph } from '../utils/Paragraph';
+import { AnimationLottie } from '../utils/AnimationLottie';
+import HumanComputer from '../../assets/img/banner-hero-animation.json';
 import './bannerhero.css';
 
 export const BannerHero = () => {
@@ -18,7 +19,7 @@ export const BannerHero = () => {
                     "/>
                 </div>
                 <div className='flex justify-center w-full laptop:w-1/2'>
-                    <img src={ sysadmin } alt="" className='w-[650px]' />
+                    <AnimationLottie lottieFolder={ HumanComputer } />
                 </div>
 
                 <MouseScrollAnimation />

@@ -18,10 +18,9 @@
 .content {
   max-width: 80vw;
   margin: 0 auto;
-  @apply flex items-center justify-between flex-col laptop:flex-row h-full;
 }
 
-h2 {
+h2,
+h3 {
   font-family: 'Kanit';
-  @apply text-4xl tracking-wide;
 }

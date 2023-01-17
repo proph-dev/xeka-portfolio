@@ -10,7 +10,7 @@ export const BannerHero = () => {
     return (
         <section className='relative h-screen'>
             <BackgroundAnimation />
-            <div className="content">
+            <div className="content flex items-center justify-between flex-col laptop:flex-row h-full">
                 <div className='flex flex-col w-full laptop:w-1/2'>
                     <h1 className='text-transparent text-9xl bg-clip-text bg-gradient-to-r from-[#f0562f] to-[#d300c1]'>Hugo Lelong</h1>
                     <Paragraph content="

@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/img/logo.png';
-import navbar from './navbar.css';
+import './navbar.css';
 
 export const Navbar = () => {
     return (
@@ -10,8 +10,8 @@ export const Navbar = () => {
             <div className='grid gap-4 grid-cols-4 text-center uppercase text-sm font-bold mt-4 tablet:mt-4'>
                 <NavLink to="/" >Qui suis-je ?</NavLink>
                 <NavLink to="/" >Portfolio</NavLink>
-                <NavLink to="/" >Documentation</NavLink>
                 <NavLink to="/" >Me contacter</NavLink>
+                <NavLink to="/" >Documentation</NavLink>
             </div>
         </nav>
     )

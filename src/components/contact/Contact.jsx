@@ -6,12 +6,12 @@ import './contact.css';
 
 export const Contact = () => {
     return (
-        <section className='relative h-screen'>
+        <section className='relative h-full laptop:h-screen py-8 laptop:py-0' id='contact' >
             <div className="content flex items-center justify-between flex-col laptop:flex-row h-full">
-                <div className='w-1/2'>
+                <div className='w-full laptop:w-1/2'>
                     <AnimationLottie lottieFolder={ ContactAnimation } />
                 </div>
-                <div className='w-1/2'>
+                <div className='w-full laptop:w-1/2'>
                     <Form />
                 </div>
             </div>
